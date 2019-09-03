@@ -12,4 +12,6 @@ class Application
       time.hour > 12
       resp.write "Good Afternoon!"
     end
+      resp.finish
+    end
   end
